@@ -1,0 +1,145 @@
+1)<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+$i;
+$sum = 0;
+$limit = 6;
+
+for($i=1;$i<=$limit;$i++)
+{
+    $sum = $sum + $i;
+}
+echo "$sum";
+?>php
+
+</body>
+</html>
+
+2)<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a = 6;
+$b = 5;
+$sum = $a + $b;
+$sub = $a - $b;
+$mul = $a * $b;
+$div = $a / $b;
+echo "$sum <br>";
+echo "$sub <br>";
+echo "$mul <br>";
+echo "$div";
+?>php
+
+</body>
+</html>
+
+
+3)<!DOCTYPE html>
+<html>
+<body>
+<?php
+$i;
+$n=5;
+$a = array("4", "5", "6", "7", "8");
+for($i=0;$i<=4;$i++)
+{
+if($a[$i] % 2 == 0)
+{
+echo "$a[$i]";
+}
+}
+?>
+</body>
+</html>
+
+
+7)<!DOCTYPE html>
+<html>
+<body>
+<?php
+$i;
+$a = array("2", "8", "4", "7", "34", "56");
+for($i=0;$i<6;$i++)
+{ 
+if($a[$i] > $a[0])
+{
+  $a[0] = $a[$i];
+}
+}
+echo "$a[0]";
+?>
+</body>
+</html>
+
+
+8)<!DOCTYPE html>
+<html>
+<body>
+<?php
+ $i;
+ $a = array("45", "56", "78");
+
+    for($i=0;$i<3;$i++)
+    {
+        if($a[$i]>$a[0])
+        {
+            $a[0] = $a[$i];
+        }
+    }
+ echo "$a[0]";
+?>
+</body>
+</html>
+
+
+9)<!DOCTYPE html>
+<html>
+<body>
+<?php
+$i = 3;
+if($i>0)
+echo "positive number";
+else if($i<0)
+echo "negative number";
+?>
+</body>
+</html>
+
+10)<!DOCTYPE html>
+<html>
+<body>
+<?php
+$ch = 'a';
+switch($ch)
+{
+case 'a':
+case 'e':
+case 'i':
+case 'o':
+case 'u':
+echo "vowel";
+break;
+default:
+echo "consonant";
+}
+?>
+</body>
+</html>
+
+11)<!DOCTYPE html>
+<html>
+<body>
+<?php
+$area;
+$breadth = 45;
+$height = 64;
+$area = 0.5 * $breadth * $height;
+echo "$area";
+?>
+</body>
+</html>
